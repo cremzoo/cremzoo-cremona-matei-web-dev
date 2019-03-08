@@ -12,16 +12,8 @@ body {
 }
 
 .background {
-  height: 100%;
+  max-height: 100vh;
   background-color: rgb(153, 77, 0);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  background-origin: content-box;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; 
   position: absolute;
   top: 0;
   bottom: 0;
