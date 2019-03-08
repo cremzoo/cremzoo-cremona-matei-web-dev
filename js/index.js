@@ -15,14 +15,14 @@ let particles = Particles.init({
     {
       breakpoint: 425,
       options: {
-        maxParticles: 150
+        maxParticles: 500
       }
     },
 
     {
       breakpoint: 320,
       options: {
-        maxParticles: 100
+        maxParticles: 300
       }
     }
   ]
