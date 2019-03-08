@@ -12,6 +12,7 @@ body {
 }
 
 .background {
+  height: 100%;
   background-color: rgb(153, 77, 0);
   background-repeat: no-repeat;
   background-position: center center;
