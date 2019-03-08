@@ -1,0 +1,98 @@
+/*
+* {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+  }
+  */
+
+html,
+body {
+  height: 100%;
+}
+
+.background {
+  background-color: rgb(153, 77, 0);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-origin: content-box;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.font1 {
+  font-family: "Kaushan Script", cursive;
+  letter-spacing: 0.2rem;
+}
+
+.font2 {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.1rem;
+}
+
+.slogan {
+  color: rgb(102, 51, 0);
+  width: 70%;
+  display: block;
+  margin: auto;
+  padding: 0.5rem;
+  
+}
+
+.bg1 {
+  background: rgba(255, 246, 236, 0.7);
+  border-radius: 5px;
+}
+
+.is-divider {
+  height: 3px !important;
+  width: 71%;
+  display: block !important;
+  margin: 0.5rem auto 0.5rem auto !important;
+}
+
+.devName {
+  margin-bottom: 2rem;
+}
+
+.devTitle {
+  margin-top: 2rem;
+}
+
+.transformText:hover,
+.navLink:hover {
+  transform: skew(-20deg) scale(1.1);
+  -webkit-transform: skew(-20deg) scale(1.1);
+}
+
+.navLink a,
+.navLink a:hover {
+  color: rgb(75, 6, 0);
+}
+
+.navB .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navLink {
+  padding: 0.7rem;
+}
+
+footer {
+  padding-top: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+  
+}

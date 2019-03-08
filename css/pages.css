@@ -1,0 +1,308 @@
+html, 
+body { 
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.font1 {
+    font-family: "Cutive", serif;
+}
+
+.font2 {
+    font-family: "Kaushan Script", cursive;
+}
+
+.font3 {
+    font-family: "Roboto", sans-serif;
+}
+
+/* Navbar */
+
+.navB {
+    background: rgb(204, 102, 0);
+    border-top: 2px solid rgb(0, 26, 26);
+    border-bottom: 2px solid rgb(0, 26, 26);
+}
+
+.navB .container, 
+.navF {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navLink {
+    padding: 0.7rem;  
+}
+
+.navLink a {
+    color: white;
+}
+
+.navLink a:hover {
+    color: rgb(0, 26, 0);
+}
+
+.active a {
+    text-decoration: underline;
+}
+
+/* Footer */
+
+.socials {
+    margin-top: 2rem;
+}
+
+.socials a {
+    color: rgb(230, 230, 0);
+    padding: 10px;
+}
+
+.socials a:hover {
+    color: rgb(0, 230, 230);
+    
+}
+
+.fa-codepen:hover,
+.fa-github:hover,
+.fa-linkedin-in:hover,
+.fa-facebook-f:hover {
+    transform: skew(-20deg) scale(1.1);
+    -webkit-transform: skew(-20deg) scale(1.1);
+}
+
+.copyR {
+    margin-top: 2rem;
+}
+
+/* About page */
+
+.hero {
+    background: rgb(153, 77, 0);    
+}
+
+.hero h1 {
+    position: absolute;
+    left: 45%;
+    letter-spacing: 0.2rem;
+    color: white;
+    z-index: 1;
+}
+
+.background {
+    mix-blend-mode: overlay;
+}
+
+.beforeAbout,
+.beforeContact {
+    background: linear-gradient(rgba(0, 201, 172, 0.6), rgba(0, 201, 172, 0.6)), 
+    url("..//Images/code1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-origin: content-box;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-bottom: 4px solid rgb(0, 26, 26);
+}
+
+.bgAbout {
+    background: url("..//Images/chalkboard.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-origin: content-box;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+    border-bottom: 4px solid rgb(0, 26, 26);
+}
+
+.aboutContent h2,
+.cv a,
+.certLink a,
+.navF a:hover {
+    color: rgb(0, 201, 172);
+}
+
+.description {
+    padding: 2rem 0;  
+}
+
+.aboutImg {
+    display: block;
+    margin: auto;
+}
+
+.bgSkills {
+    background:linear-gradient(rgba(153, 77, 0, 0.7), rgba(153, 77, 0, 0.7)),
+    url("..//Images/black.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-origin: content-box;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+    border-bottom: 4px solid rgb(0, 26, 26);
+}
+
+.skills {
+    color: rgb(0, 201, 172);
+    margin-bottom: 2rem;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.jsLogo,
+.tailwindLogo {
+    border-radius: 5px;
+}
+
+.jqLogo,
+.nodeLogo,
+.bulmaLogo {
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.codeSkills li {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+.codeSkills ul {
+    color: wheat;
+}
+
+.skills1 {
+    margin-top: 2rem;
+}
+
+.cv {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.cv a:hover,
+.certLink a:hover {
+    color: rgb(0, 26, 26);
+}
+
+.cert {
+    width: 60%;
+    height: 60%;
+    display: block;
+    margin: auto;
+}
+
+.certLink {
+    margin-top: 2rem;
+}
+ 
+/* Portfolio page */
+
+.portfolioBg {
+    background: linear-gradient(rgba(153, 77, 0, 0.7), rgba(153, 77, 0, 0.7)),
+    url("..//Images/chalkboard.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-origin: content-box;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+    border-bottom: 4px solid rgb(0, 26, 26);
+    
+}
+
+.breadcrumb li a {
+    color: white;
+}
+
+.projects .columns .column {
+    height: 100%;   
+}
+
+#clientProj,
+#fccProj,
+#jsProj,
+#pythonProj,
+#persProj {
+    margin-bottom: 2rem;
+}
+
+.projectDiv {
+    color: #dbece6;
+}
+
+.projectDiv p {
+    margin-bottom: 20px;
+}
+
+.projectDiv a,
+.breadcrumb li a:hover {
+    color: rgb(0, 26, 0);
+}
+
+.projectDiv a:hover {
+    color: #dbece6;
+}
+
+.portfolioImg {
+    height: 200px;
+    display: block;
+    margin: 1rem auto;
+    width: 100%;
+   
+}
+
+/* Contact page */
+
+.beforeContact {
+    border-top: 4px solid rgb(0, 26, 26);
+}
+
+.contactMe {
+    background: url("..//Images/chalkboard.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-origin: content-box;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+    border-bottom: 4px solid rgb(0, 26, 26);
+}
+
+.seeWork a, 
+.seeCV a,
+.contactMe h1,
+.mail a,
+.myemail {
+    color: rgb(0, 201, 172); 
+}
+
+.mail a {
+    margin-left: 10px;
+}
+
+.seeWork a:hover,
+.seeCV a:hover {
+    color: white;
+}
+
+.contactMe h2 {
+    margin-top: 2rem;
+}

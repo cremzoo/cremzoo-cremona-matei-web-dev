@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+
+  <!--  Styles  -->
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&amp;subset=latin-ext" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=latin-ext" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Cutive&amp;subset=latin-ext" rel="stylesheet"> 
+
+  <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+  
+</head>
+
+<body>
+    
+    <section class="hero is-fullheight heroPortf">
+        
+     <div class="hero-body">
+                    
+      <h1 class="title font2 wow heartBeat">Portfolio</h1>
+      <canvas class="background"></canvas>              
+      
+    </div>    
+    
+    </section>
+
+    <section class="section has-text-centered is-paddingless is-size-5 is-size-7-mobile font1 navB">
+        
+      <div class="container">  
+
+       <p class="navLink"><a href="about.html" target="_blank">About me</a></p>
+       <p class="navLink active"><a href="portfolio.html" target="_blank">Portfolio</a></p>
+       <p class="navLink"><a href="contact.html" target="_blank">Contact me</a></p>
+
+     </div>
+
+    </section>
+
+    <section class="section beforeAbout">
+
+    <div class="container">
+    <h1 id="typewriter" class="is-size-2 is-size-4-mobile has-text-centered has-text-white slogan font1">
+        
+    </h1>
+    </div>
+            
+    </section>
+
+
+    <section class="section portfolioBg font1">
+        
+      <div class="container">
+
+      <nav id="myBreadcrumb" class="breadcrumb is-centered font1" aria-label="breadcrumbs">
+        <ul>
+          <li><a href="#clientProj">Client projects</a></li>
+          <li><a href="#fccProj">freeCodeCamp projects</a></li>
+          <li><a href="#jsProj">JavaScript30 projects</a></li>
+          <li><a href="#pythonProj">Python projects</a></li>
+          <li><a href="#persProj">Personal projects</a></li>
+          <li><a href="">Other projects</a></li>
+        </ul>
+     </nav>
+   
+     <div class="projects">
+
+      <h1 id="clientProj" class="is-size-1 is-size-3-mobile has-text-centered has-text-white font2">
+        Client projects</h1>
+
+      <div class="columns is-centered">
+
+        <div class="column is-paddingless projectDiv is-half font1 wow zoomIn">
+          <img class="portfolioImg" src="Images/boicot.png" alt="boycott site picture">
+          <div class="tags is-centered">
+            <span class="tag is-dark is-medium font1">#boicot-referendum</span>
+          </div>
+          <p class="is-size-6 has-text-justified">A site made together with Ella von Tag 
+            (web design, content). The site was made to support the boycott of a referendum held 
+            in Romania against gay couples.</p>
+          <div class="tags is-centered font3">
+            <span class="tag is-dark">HTML5</span>
+            <span class="tag is-dark">CSS3</span>
+            <span class="tag is-dark">JavaScript</span>
+            <span class="tag is-dark">Netlify</span>
+            </div>
+          <p class="is-size-6 has-text-centered">
+            <a href="https://boicot-referendum.tk/" target="_blank">See here</a></p>
+        </div>
+          
+        <!-- 
+        <div class="column is-paddingless projectBg2 font1">
+          
+        <img class="portfolioImg" src="boicot.png" alt="boycott site picture">
+          <h2 class="is-size-5 is-size-6-mobile has-text-centered has-text-white projectBg1">
+            #boicot-referendum</h2>
+          <p class="is-size-6 is-size-7-mobile has-text-left">A site made together with Ella von Tag 
+            (web design, content). The site was made to support the boycott of a referendum held 
+            in Romania against gay couples.</p>
+          <p class="is-size-6 is-size-7-mobile has-text-centered">
+            <a href="https://boicot-referendum.tk/" target="_blank">See here</a></p>
+          
+        </div> -->
+
+      </div> <!-- end of 1st columns div clientproj-->
+
+      <h1 id="fccProj" class="is-size-1 is-size-3-mobile has-text-centered has-text-white font2">
+          freeCodeCamp projects</h1>
+
+      <div class="columns">
+
+          <div class="column projectDiv font1 wow zoomIn">
+            <img class="portfolioImg" src="Images/tribute.png" alt="tribute page picture">
+            <div class="tags is-centered">
+              <span class="tag is-dark is-medium font1">Tribute page</span>
+            </div>
+            <p class="is-size-6 has-text-justified"> A tribute to the spanish poet 
+              Juan Ramón Jiménez. My first web page. I experimented with background-clip, text-shadow, 
+              mix-blend-mode.</p>
+            <div class="tags is-centered font3">
+              <span class="tag is-dark">HTML5</span>
+              <span class="tag is-dark">CSS3</span>
+              <span class="tag is-dark">Bootstrap 4</span>
+            </div>
+            <p class="is-size-6 has-text-centered">
+              <a href="https://cremzoo.github.io/Juan-Ramon-Jimenez/" target="_blank">See here</a></p>
+          </div>
+            
+          <div class="column projectDiv font1 wow zoomIn">
+            <img class="portfolioImg" src="Images/survey.png" alt="tribute page picture">
+            <div class="tags is-centered">
+              <span class="tag is-dark is-medium font1">Survey Form</span>
+            </div>
+            <p class="is-size-6 has-text-justified"> A survey form regarding organ 
+                donation. An opportunity to familiarize myself with forms and also with customized 
+                check boxes and radio buttons. This project is only an UI.</p>
+            <div class="tags is-centered font3">
+              <span class="tag is-dark">HTML5</span>
+              <span class="tag is-dark">CSS3</span>
+              <span class="tag is-dark">JQuery</span>
+            </div>
+            <p class="is-size-6 has-text-centered">
+              <a href="https://cremzoo.github.io/Survey-form/" target="_blank">See here</a></p>
+          </div>
+  
+          
+        </div> <!-- end of 1st columns div fccproj-->
+
+
+        <div class="columns">
+
+          <div class="column projectDiv font1 wow zoomIn">
+            <img class="portfolioImg" src="Images/landing.png" alt="landing page picture">
+            <div class="tags is-centered">
+              <span class="tag is-dark is-medium font1">Landing Page</span>
+            </div>
+            <p class="is-size-6 has-text-centered">A landing page for some possible 
+              coding tutorials.</p>
+            <div class="tags is-centered font3">
+              <span class="tag is-dark">HTML5</span>
+              <span class="tag is-dark">CSS3</span>
+              <span class="tag is-dark">Bootstrap 4</span>
+            </div>
+            <p class="is-size-6 has-text-centered">
+              <a href="https://cremzoo.github.io/Product-Landing-Page/" target="_blank">See here</a></p>
+          </div>
+            
+          <div class="column projectDiv font1 wow zoomIn">
+            <img class="portfolioImg" src="Images/docp.png" alt="documentation page picture">
+            <div class="tags is-centered">
+              <span class="tag is-dark is-medium font1">Technical documentation page</span>
+            </div>
+            <p class="is-size-6 has-text-centered"> Technical documentation page on 
+                CSS functions.</p>
+            <div class="tags is-centered font3">
+              <span class="tag is-dark">HTML5</span>
+              <span class="tag is-dark">CSS3</span>
+              <span class="tag is-dark">Bootstrap 4</span>
+              <span class="tag is-dark">jScrollPane</span>
+            </div>
+            <p class="is-size-6 has-text-centered">
+              <a href="https://cremzoo.github.io/Technical-Documentation-Page/" target="_blank">See here</a></p>
+          </div>
+  
+          
+        </div> <!-- end of 2nd columns div fccproj-->
+
+        <div class="columns">
+
+          <div class="column projectDiv font1 wow zoomIn">
+            <img class="portfolioImg" src="Images/quotes.png" alt="quotes page picture">
+            <div class="tags is-centered">
+              <span class="tag is-dark is-medium font1">Random Quotes Machine</span>
+            </div>
+            <p class="is-size-6 has-text-justified">Generates random quotes about 
+              classical guitar from various musicians and composers. The quotes were saved in 
+              an array.</p>
+            <div class="tags is-centered font3">
+              <span class="tag is-dark">HTML5</span>
+              <span class="tag is-dark">CSS3</span>
+              <span class="tag is-dark">JQuery</span>
+            </div>
+            <p class="is-size-6 has-text-centered">
+              <a href="https://codepen.io/cremzoo/full/LjPVWm/" target="_blank">See here</a></p>
+          </div>
+            
+          <div class="column projectDiv font1 wow zoomIn">
+            <img class="portfolioImg" src="Images/weather.png" alt="weather app picture">
+            <div class="tags is-centered">
+              <span class="tag is-dark is-medium font1">Weather app</span>
+            </div>
+            <p class="is-size-6 has-text-justified">A small application that shows 
+              the weather according to your location. Celsius to Fahrenheit conversion.</p>
+            <div class="tags is-centered font3">
+              <span class="tag is-dark">HTML5</span>
+              <span class="tag is-dark">CSS3</span>
+              <span class="tag is-dark">JQuery</span>
+              <span class="tag is-dark">Weather API</span>  
+            </div>
+            <p class="is-size-6 has-text-centered">
+              <a href="https://codepen.io/cremzoo/full/GvNdKm/" target="_blank">See here</a></p>
+          </div>
+  
+          
+        </div> <!-- end of 3rd columns div fccproj-->
+
+        <div class="columns">
+
+          <div class="column projectDiv font1 wow zoomIn">
+            <img class="portfolioImg" src="Images/wiki.png" alt="wikipedia app picture">
+            <div class="tags is-centered">
+              <span class="tag is-dark is-medium font1">Wikipedia viewer</span>
+            </div>
+            <p class="is-size-6 has-text-justified">Searches for articles from 
+              Wikipedia and displays results. Also, you can click and get a random article.</p>
+            <div class="tags is-centered font3">
+              <span class="tag is-dark">HTML5</span>
+              <span class="tag is-dark">CSS3</span>
+              <span class="tag is-dark">JQuery</span>
+              <span class="tag is-dark">Wikipedia API</span>
+            </div>
+            <p class="is-size-6 has-text-centered">
+              <a href="https://codepen.io/cremzoo/full/wrvKXE/" target="_blank">See here</a></p>
+          </div>
+            
+          <div class="column projectDiv font1 wow zoomIn">
+            <img class="portfolioImg" src="Images/portf.png" alt="portfolio page picture">
+            <div class="tags is-centered">
+              <span class="tag is-dark is-medium font1">Portfolio page</span>
+            </div>
+            <p class="is-size-6 has-text-justified">A small, simple portfolio page 
+              with my work for my fCC certification. I tried a different navbar shape.</p>
+            <div class="tags is-centered font3">
+              <span class="tag is-dark">HTML5</span>
+              <span class="tag is-dark">CSS3</span>
+              <span class="tag is-dark">Bootstrap 4</span>
+            </div>
+            <p class="is-size-6 has-text-centered">
+              <a href="https://codepen.io/cremzoo/full/LrJMxR/" target="_blank">See here</a></p>
+          </div>
+  
+          
+        </div> <!-- end of 4th columns div fccproj-->
+
+    <h1 id="jsProj" class="is-size-1 is-size-3-mobile has-text-centered has-text-white font2">
+      JavaScript30 projects</h1>
+
+      <div class="columns">
+
+        <div class="column projectDiv font1 wow zoomIn">
+          <img class="portfolioImg" src="Images/drumkit.png" alt="drum app picture">
+          <div class="tags is-centered">
+            <span class="tag is-dark is-medium font1">JS drum kit</span>
+          </div>
+          <p class="is-size-6 has-text-justified">Drum app. Press the letter on the keyboard and play around. I
+            learned how to work with sound files in HTML.</p>
+          <div class="tags is-centered font3">
+            <span class="tag is-dark">HTML5</span>
+            <span class="tag is-dark">CSS3</span>
+            <span class="tag is-dark">JavaScript</span>
+          </div>
+          <p class="is-size-6 has-text-centered">
+            <a href="https://cremzoo.github.io/Javascript30_JavaScript-Drum-Kit/" target="_blank">See here</a></p>
+        </div>
+          
+        <div class="column projectDiv font1 wow zoomIn">
+          <img class="portfolioImg" src="Images/clock1.png" alt="clock app picture">
+          <div class="tags is-centered">
+            <span class="tag is-dark is-medium font1">JS clock</span>
+          </div>
+          <p class="is-size-6 has-text-justified">Shows current time and date plus 
+            some funny messages for various time frames.</p>
+          <div class="tags is-centered font3">
+            <span class="tag is-dark">HTML5</span>
+            <span class="tag is-dark">CSS3</span>
+            <span class="tag is-dark">JavaScript</span>
+          </div>
+          <p class="is-size-6 has-text-centered">
+            <a href="https://cremzoo.github.io/Javascript30-Clock/" target="_blank">See here</a></p>
+        </div>
+
+        
+      </div> <!-- end of 1st columns div jsproj-->
+
+
+      <div class="columns">
+
+        <div class="column projectDiv font1 wow zoomIn">
+          <img class="portfolioImg" src="Images/clock2.png" alt="clock app picture">
+          <div class="tags is-centered">
+            <span class="tag is-dark is-medium font1">JS Clock v2</span>
+          </div>
+          <p class="is-size-6 has-text-justified">Shows current time and date plus 
+            some funny messages for various
+            time frames. Different background.</p>
+          <div class="tags is-centered font3">
+            <span class="tag is-dark">HTML5</span>
+            <span class="tag is-dark">CSS3</span>
+            <span class="tag is-dark">JavaScript</span>
+          </div>
+          <p class="is-size-6 has-text-centered">
+            <a href="https://codepen.io/cremzoo/full/wjYaoy/" target="_blank">See here</a></p>
+        </div>
+          
+        <div class="column projectDiv font1 wow zoomIn">
+          <img class="portfolioImg" src="Images/cssvar.png" alt="css app picture">
+          <div class="tags is-centered">
+            <span class="tag is-dark is-medium font1">CSS variables</span>
+          </div>
+          <p class="is-size-6 has-text-justified">Play around with a photo's size,
+             border, blur and radius. A good
+            way to learn how to manipulate inputs with JS.</p>
+          <div class="tags is-centered font3">
+            <span class="tag is-dark">HTML5</span>
+            <span class="tag is-dark">CSS3</span>
+            <span class="tag is-dark">JavaScript</span>
+          </div>
+          <p class="is-size-6 has-text-centered">
+            <a href="https://cremzoo.github.io/Update-CSS-Variables-with-JS/" target="_blank">See here</a></p>
+        </div>
+
+        
+      </div> <!-- end of 2nd columns div jsproj-->
+
+      <div class="columns">
+
+        <div class="column projectDiv font1 wow zoomIn">
+          <img class="portfolioImg" src="Images/flex.png" alt="flex app picture">
+          <div class="tags is-centered">
+            <span class="tag is-dark is-medium font1">Flex gallery</span>
+          </div>
+          <p class="is-size-6 has-text-justified">A flex image gallery with some animation managed with JavaScript.
+            Click on every image to expand it.</p>
+          <div class="tags is-centered font3">
+            <span class="tag is-dark">HTML5</span>
+            <span class="tag is-dark">CSS3</span>
+            <span class="tag is-dark">JavaScript</span>
+          </div>
+          <p class="is-size-6 has-text-centered">
+            <a href="https://cremzoo.github.io/Javascript30-Flex-Panels-Image-Gallery/" target="_blank">See here</a></p>
+        </div>
+          
+        <div class="column projectDiv font1 wow zoomIn">
+          <img class="portfolioImg" src="Images/type.png" alt="type ahead app picture">
+          <div class="tags is-centered">
+            <span class="tag is-dark is-medium font1">Type ahead app</span>
+          </div>
+          <p class="is-size-6 has-text-justified">Search for US cities and states and see 
+            their population growth.</p>
+          <div class="tags is-centered font3">
+            <span class="tag is-dark">HTML5</span>
+            <span class="tag is-dark">CSS3</span>
+            <span class="tag is-dark">JavaScript</span>
+          </div>
+          <p class="is-size-6 has-text-centered">
+            <a href="https://cremzoo.github.io/Javascript30-Type-Ahead/" target="_blank">See here</a></p>
+        </div>
+
+        
+      </div> <!-- end of 3rd columns div jsproj-->
+
+      <div class="columns">
+
+        <div class="column projectDiv font1 wow zoomIn">
+          <img class="portfolioImg" src="Images/canvasapp.png" alt="canvas app picture">
+          <div class="tags is-centered">
+            <span class="tag is-dark is-medium font1">Canvas app</span>
+          </div>
+          <p class="is-size-6 has-text-justified">A small canvas app. You can draw 
+            and save your work. You can choose the background color also.</p>
+          <div class="tags is-centered font3">
+            <span class="tag is-dark">HTML5</span>
+            <span class="tag is-dark">CSS3</span>
+            <span class="tag is-dark">JavaScript</span>
+          </div>
+          <p class="is-size-6 has-text-centered">
+            <a href="https://cremzoo.github.io/JavaScript30-HTML5-Canvas/" target="_blank">See here</a></p>
+        </div>
+          
+        <div class="column projectDiv font1 wow zoomIn">
+          <img class="portfolioImg" src="Images/shift.png" alt="hold shift app picture">
+          <div class="tags is-centered">
+            <span class="tag is-dark is-medium font1">Hold Shift</span>
+          </div>
+          <p class="is-size-6 has-text-justified">Hold Shift key to check multiple 
+            check boxes. A classic functionality for many applications.</p>
+          <div class="tags is-centered font3">
+            <span class="tag is-dark">HTML5</span>
+            <span class="tag is-dark">CSS3</span>
+            <span class="tag is-dark">JavaScript</span>
+          </div>
+          <p class="is-size-6 has-text-centered">
+            <a href="https://cremzoo.github.io/Hold-Shift-to-Check-Multiple-Checkboxes/" target="_blank">See here</a></p>
+        </div>
+
+        
+      </div> <!-- end of 4th columns div jsproj-->
+
+      <h1 id="pythonProj" class="is-size-1 is-size-3-mobile has-text-centered has-text-white font2">
+      Python projects</h1>
+
+      <div class="columns">
+
+        <div class="column projectDiv font1 wow zoomIn">
+          <img class="portfolioImg" src="Images/python_calculator.png" alt="calculator app picture">
+          <div class="tags is-centered">
+            <span class="tag is-dark is-medium font1">Calculator</span>
+          </div>
+          <p class="is-size-6 has-text-centered">Very basic app, just to familiarize 
+            myself with tkinter.</p>
+          <div class="tags is-centered font3">
+            <span class="tag is-dark">Python3</span>
+            <span class="tag is-dark">tkinter</span>
+          </div>
+          <p class="is-size-6 has-text-centered">
+            <a href="https://github.com/cremzoo/python-calculator" target="_blank">See here</a></p>
+        </div>
+          
+        <div class="column projectDiv font1 wow zoomIn">
+          <img class="portfolioImg" src="Images/countb.png" alt="countdown app picture">
+          <div class="tags is-centered">
+            <span class="tag is-dark is-medium font1">Countdown app</span>
+          </div>
+          <p class="is-size-6 has-text-centered">Counts the time left until December
+             19th 2019.</p>
+          <div class="tags is-centered font3">
+            <span class="tag is-dark">Python3</span>
+            <span class="tag is-dark">tkinter</span>
+            
+          </div>
+          <p class="is-size-6 has-text-centered">
+            <a href="https://github.com/cremzoo/countdown-timer" target="_blank">See here</a></p>
+        </div>
+
+        
+      </div> <!-- end of 1st columns div pythonproj-->
+
+
+      <div class="columns">
+
+        <div class="column projectDiv font1 wow zoomIn">
+          <img class="portfolioImg" src="Images/digital_clock.png" alt="clock app picture">
+          <div class="tags is-centered">
+            <span class="tag is-dark is-medium font1">Digital clock</span>
+          </div>
+          <p class="is-size-6 has-text-centered">Displays current date and time.</p>
+          <div class="tags is-centered font3">
+            <span class="tag is-dark">Python3</span>
+            <span class="tag is-dark">tkinter</span>
+          </div>
+          <p class="is-size-6 has-text-centered">
+            <a href="https://github.com/cremzoo/python-digital-clock" target="_blank">See here</a></p>
+        </div>
+          
+        <div class="column projectDiv font1 wow zoomIn">
+          <img class="portfolioImg" src="Images/feet_to_meters.png" alt="feet to meters app picture">
+          <div class="tags is-centered">
+            <span class="tag is-dark is-medium font1">Feet to meters</span>
+          </div>
+          <p class="is-size-6 has-text-centered">An application that converts feet 
+            to meters.</p>
+          <div class="tags is-centered font3">
+              <span class="tag is-dark">Python3</span>
+              <span class="tag is-dark">tkinter</span>
+          </div>
+          <p class="is-size-6 has-text-centered">
+            <a href="https://github.com/cremzoo/python-feet-to-meters-converter" target="_blank">See here</a></p>
+        </div>
+
+        
+      </div> <!-- end of 2nd columns div pythonproj-->
+
+      <div class="columns">
+
+        <div class="column projectDiv font1 wow zoomIn">
+          <img class="portfolioImg" src="Images/times_tables.png" alt="times tables app picture">
+          <div class="tags is-centered">
+            <span class="tag is-dark is-medium font1">Times tables app</span>
+          </div>
+          <p class="is-size-6 has-text-centered">Generates times tables. Useful in case 
+            you need them fast.</p>
+          <div class="tags is-centered font3">
+            <span class="tag is-dark">Python3</span>
+            <span class="tag is-dark">tkinter</span>
+          </div>
+          <p class="is-size-6 has-text-centered">
+            <a href="https://github.com/cremzoo/python-times-table" target="_blank">See here</a></p>
+        </div>
+          
+        <div class="column projectDiv font1 wow zoomIn">
+          <img class="portfolioImg" src="Images/dictionary.png" alt="dictionary app picture">
+          <div class="tags is-centered">
+            <span class="tag is-dark is-medium font1">Interactive Dictionary</span>
+          </div>
+          <p class="is-size-6 has-text-centered">Returns definitions of the 
+            words searched. 
+            </p>
+          <div class="tags is-centered font3">
+            <span class="tag is-dark">Python3</span>
+            <span class="tag is-dark">difflib</span>
+            <span class="tag is-dark">json file</span>
+          </div>
+          <p class="is-size-6 has-text-centered">
+            <a href="https://github.com/cremzoo/python-interactive-dictionary" target="_blank">See here</a></p>
+        </div>
+
+        
+      </div> <!-- end of 3rd columns div pythonproj-->
+
+      <div class="columns is-centered">
+
+        <div class="column is-half projectDiv font1 wow zoomIn">
+          <img class="portfolioImg" src="Images/number_guessing.png" alt="number guessing app picture">
+          <div class="tags is-centered">
+            <span class="tag is-dark is-medium font1">Number guessing</span>
+          </div>
+          <p class="is-size-6 has-text-justified">Guess the number that the 
+            computer has chosen. Try to get it right
+            from as fewer tries as you can.</p>
+          <div class="tags is-centered font3">
+            <span class="tag is-dark">Python3</span>
+            <span class="tag is-dark">random module</span>
+          </div>
+          <p class="is-size-6 has-text-centered">
+            <a href="https://github.com/cremzoo/python-number-guessing" target="_blank">See here</a></p>
+        </div>
+       <!--   
+        <div class="column projectDiv font1 wow zoomIn">
+          <img class="portfolioImg" src="shift.png" alt="hold shift app picture">
+          <div class="tags is-centered">
+            <span class="tag is-dark is-medium font1">Hold Shift</span>
+          </div>
+          <p class="is-size-6 is-size-7-mobile has-text-justified">Hold Shift key to check multiple 
+            check boxes. A classic functionality for many applications.</p>
+          <div class="tags is-centered font3">
+            <span class="tag is-dark">HTML5</span>
+            <span class="tag is-dark">CSS3</span>
+            <span class="tag is-dark">JavaScript</span>
+          </div>
+          <p class="is-size-6 is-size-7-mobile has-text-centered">
+            <a href="https://cremzoo.github.io/Hold-Shift-to-Check-Multiple-Checkboxes/" target="_blank">See here</a></p>
+        </div>
+-->
+        
+      </div> <!-- end of 4th columns div pythonproj-->
+
+      <h1 id="persProj" class="is-size-1 is-size-3-mobile has-text-centered has-text-white font2">
+      Personal projects</h1>
+
+      <div class="columns">
+
+        <div class="column projectDiv font1 wow zoomIn">
+          <img class="portfolioImg" src="Images/cv.png" alt="cv picture">
+          <div class="tags is-centered">
+            <span class="tag is-dark is-medium font1">On-line résumé</span>
+          </div>
+          <p class="is-size-6 has-text-centered">My résumé as HTML. You can find more 
+            about me here.</p>
+          <div class="tags is-centered font3">
+            <span class="tag is-dark">HTML5</span>
+            <span class="tag is-dark">CSS3</span>
+            <span class="tag is-dark">Bulma</span>
+          </div>
+          <p class="is-size-6 has-text-centered">
+            <a href="https://cremzoo.github.io/CV/" target="_blank">See here</a></p>
+        </div>
+          
+        <div class="column projectDiv font1 wow zoomIn">
+          <img class="portfolioImg" src="Images/websitebt4.png" alt="website picture">
+          <div class="tags is-centered">
+            <span class="tag is-dark is-medium font1">Bootstrap 4 site</span>
+          </div>
+          <p class="is-size-6 has-text-centered">An old portfolio website made with
+            Bootstrap. </p>
+          <div class="tags is-centered font3">
+            <span class="tag is-dark">HTML5</span>
+            <span class="tag is-dark">CSS3</span>
+            <span class="tag is-dark">Bootstrap 4</span>
+            <span class="tag is-dark">JavaScript</span>  
+          </div>
+          <p class="is-size-6 has-text-centered">
+            <a href="https://codepen.io/cremzoo/full/yjaKxm/" target="_blank">See here</a></p>
+        </div>
+
+        
+      </div> <!-- end of 1st columns div persproj-->
+
+
+      <div class="columns is-centered">
+
+        <div class="column is-half projectDiv font1 wow zoomIn">
+          <img class="portfolioImg" src="Images/fbUI.png" alt="fbUI picture">
+          <div class="tags is-centered">
+            <span class="tag is-dark is-medium font1">FB Home UI like</span>
+          </div>
+          <p class="is-size-6 has-text-justified">A Facebook like UI page. This is only 
+            an interface not an app :).</p>
+          <div class="tags is-centered font3">
+            <span class="tag is-dark">HTML5</span>
+            <span class="tag is-dark">CSS3</span>
+            <span class="tag is-dark">Bootstrap 4</span>
+            <span class="tag is-dark">JavaScript</span>
+          </div>
+          <p class="is-size-6 has-text-centered">
+            <a href="https://codepen.io/cremzoo/full/djemqa/" target="_blank">See here</a></p>
+        </div>
+       
+        
+      </div> <!-- end of 2nd columns div persproj-->
+
+     </div> <!-- end of projects div-->
+
+      </div> <!-- end of container div-->
+
+    </section>   
+   
+
+   <footer class="footer has-background-black has-text-centered">
+
+       <div class="container">
+           
+        <div class="has-text-centered is-size-5 is-size-7-mobile font1 navF">
+        <p class="navLink"><a href="about.html" target="_blank">About me</a></p>
+        <p class="navLink active"><a href="portfolio.html" target="_blank">Portfolio</a></p>
+        <p class="navLink"><a href="contact.html" target="_blank">Contact me</a></p>
+        </div>  
+        
+        <div class="socials">
+
+        <a href="https://codepen.io/cremzoo/#" target="_blank">
+        <i class="fab fa-codepen fa-3x"></i>
+        </a>
+
+        <a href="https://github.com/cremzoo" target="_blank">
+        <i class="fab fa-github fa-3x"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/cremona-matei-33873a12b/" target="_blank">
+        <i class="fab fa-linkedin-in fa-3x"></i>
+        </a>
+
+        <a href="https://www.facebook.com/people/Cremona-Matei/100009358959502" target="_blank">
+        <i class="fab fa-facebook-f fa-3x"></i>
+        </a>
+        </div>
+
+        <p class="is-size-6 is-size-7-mobile has-text-white font1 copyR">© 2019 Coded by Cremzoo; 
+            with Bulma, Animate.css and wow.js
+        </p>
+
+       </div>
+
+   </footer>
+
+   
+      
+<!-- Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
+
+<script src="https://unpkg.com/typewriter-effect/dist/core.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+<script src="js/portfolio.js"></script>
+
+</body>
+</html>
