@@ -1,4 +1,5 @@
-let particles = Particles.init({
+window.onload = function() {
+  Particles.init({
   selector: ".background",
   color: "#f2f2f2",
   maxParticles: 1000,
@@ -27,3 +28,4 @@ let particles = Particles.init({
     }
   ]
 });
+};
