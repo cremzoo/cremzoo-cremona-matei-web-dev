@@ -6,6 +6,7 @@ new Typewriter("#typewriter", {
   loop: true
 });
 
+/*
 let particles = Particles.init({
   selector: ".background",
   color: "#ffffff",
@@ -36,6 +37,6 @@ let particles = Particles.init({
   ]
 });
 
-
+*/
 
 
