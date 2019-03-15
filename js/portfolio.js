@@ -1,3 +1,12 @@
+new WOW().init();
+
+new Typewriter("#typewriter", {
+  strings: ["Let\'\s de\-\code ideas together!"],
+  autoStart: true,
+  loop: true
+});
+
+/*
 let particles = Particles.init({
   selector: ".background",
   color: "#c3fcf1",
@@ -27,12 +36,8 @@ let particles = Particles.init({
     }
   ]
 });
+*/
 
-new Typewriter("#typewriter", {
-  strings: ["Let's de-code ideas together!"],
-  autoStart: true,
-  loop: true
-});
 
-new WOW().init();
+
 

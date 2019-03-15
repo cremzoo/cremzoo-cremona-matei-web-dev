@@ -94,6 +94,13 @@ body {
     background-size: cover; 
 }
 
+.fa-user-tie,
+.fa-images {
+    display: block;
+    margin: auto;
+    color: rgb(0, 201, 172);  
+}
+
 /*
 .background {
     mix-blend-mode: overlay;
